@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Almacén - Inventario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">1. Registro</a>
+        <a href="operaciones.html">2. Operaciones</a>
+        <a href="inventario.html">3. Inventario</a>
+    </nav>
+
+    <section>
+        <h2>Módulo 4: Consulta de Inventario</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Código</th><th>Nombre</th><th>Stock</th><th>Promedio</th><th>Total</th> </tr>
+            </thead>
+            <tbody id="listaInv"></tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Módulo 5: Historial de Movimientos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tipo</th><th>Código</th><th>Cantidad</th><th>Fecha</th><th>Stock Final</th> </tr>
+            </thead>
+            <tbody id="listaHist"></tbody>
+        </table>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

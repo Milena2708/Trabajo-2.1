@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Almacén - Operaciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">1. Registro</a>
+        <a href="operaciones.html">2. Operaciones</a>
+        <a href="inventario.html">3. Inventario</a>
+    </nav>
+
+    <section>
+        <h2>Módulos 2 y 3: Recepción y Despacho</h2>
+        <input type="text" id="movCod" placeholder="Código del producto"> <input type="number" id="movCant" placeholder="Cantidad"> <input type="number" id="movCosto" placeholder="Costo Unitario (Solo Ingresos)"> <br>
+        <button onclick="operacion('recepcion')">Registrar Recepción</button>
+        <button onclick="operacion('despacho')" style="background:#cc3300;">Registrar Despacho</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
